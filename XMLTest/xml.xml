@@ -1,0 +1,20 @@
+<ru.eltech.xml.Settings>
+  <host>localhost</host>
+  <port>5432</port>
+  <login>postgresql</login>
+  <password>qwerty</password>
+  <params>
+    <entry>
+      <string>a1</string>
+      <string>123</string>
+    </entry>
+    <entry>
+      <string>a2</string>
+      <string>456</string>
+    </entry>
+    <entry>
+      <string>a3</string>
+      <string>789</string>
+    </entry>
+  </params>
+</ru.eltech.xml.Settings>
