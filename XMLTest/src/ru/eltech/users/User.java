@@ -1,4 +1,4 @@
-package ru.eltech;
+package ru.eltech.users;
 
 public class User {
     private String userCategory;
@@ -36,5 +36,11 @@ public class User {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public void showInfo(){
+        System.out.println(this.getName());
+        System.out.println(this.getUserCategory());
+        System.out.println(this.getEmail());
     }
 }

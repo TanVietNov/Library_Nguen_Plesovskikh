@@ -1,4 +1,4 @@
-package ru.eltech;
+package ru.eltech.lib_struct;
 
 public class Book {
     private short book_id;

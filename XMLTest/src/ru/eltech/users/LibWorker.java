@@ -1,4 +1,4 @@
-package ru.eltech;
+package ru.eltech.users;
 
 public class LibWorker extends User{
     private int workerID;
@@ -18,5 +18,10 @@ public class LibWorker extends User{
 
     public void setWorkingHours(int[] workingHours) {
         this.workingHours = workingHours;
+    }
+
+    @Override
+    public void showInfo() {
+        super.showInfo();
     }
 }
